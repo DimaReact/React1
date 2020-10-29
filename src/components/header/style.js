@@ -4,7 +4,7 @@ import theme from '../theme/theme';
 
 const useStyles = makeStyles(theme => ({
     root: {
-        color: theme.palette.info.light,
+        color: '#4299E1',
     },
     headerBtn: {
         width: '82px',

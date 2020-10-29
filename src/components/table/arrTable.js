@@ -1,9 +1,9 @@
 const arrTableRow = [
-    {title: 'Design: A Survival Guide for Beginners', date: 'Posted 3 days ago', status: 'published', views: 120},
-    {title: 'Design: A Survival Guide for Beginners', date: 'Posted 3 days ago', status: 'draft', views: 0},
-    {title: 'Design: A Survival Guide for Beginners', date: 'Posted 3 days ago', status: 'scheduled', views: 0},
-    {title: 'Design: A Survival Guide for Beginners', date: 'Posted 3 days ago', status: 'published', views: 120},
-    {title: 'Design: A Survival Guide for Beginners', date: 'Posted 3 days ago', status: 'published', views: 120},
+    {rowTitle: 'Design: A Survival Guide for Beginners', rowDate: 'Posted 3 days ago', rowStatus: 'published', rowViews: 120},
+    {rowTitle: 'Design: A Survival Guide for Beginners', rowDate: 'Posted 3 days ago', rowStatus: 'draft', rowViews: 0},
+    {rowTitle: 'Design: A Survival Guide for Beginners', rowDate: 'Posted 3 days ago', rowStatus: 'scheduled', rowViews: 0},
+    {rowTitle: 'Design: A Survival Guide for Beginners', rowDate: 'Posted 3 days ago', rowStatus: 'published', rowViews: 120},
+    {rowTitle: 'Design: A Survival Guide for Beginners', rowDate: 'Posted 3 days ago', rowStatus: 'published', rowViews: 120},
 ]
 
 export default arrTableRow;
