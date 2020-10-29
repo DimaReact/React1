@@ -11,16 +11,16 @@ import ListBoxIcon from '../../icons/ListBoxIcon'
 import ListCupIcon from '../../icons/ListCupIcon'
 
 const arrLists = [
-    {listNumber: 1, listIcon: <ListHomeIcon />, listName: 'View site'},
-    {listNumber: 1, listIcon: <ListCreateIcon />, listName: 'Create page'},
-    {listNumber: 1, listIcon: <ListPenIcon />, listName: 'Blog articles'},
-    {listNumber: 1, listIcon: <ListImgIcon />, listName: 'Files'},
-    {listNumber: 1, listIcon: <ListUsersIcon />, listName: 'Users'},
-    {listNumber: 1, listIcon: <ListZipIcon />, listName: 'Subscriptions'},
-    {listNumber: 1, listIcon: <ListTrashIcon />, listName: 'Archived pages'},
-    {listNumber: 2, listIcon: <ListBookIcon />, listName: 'Themes'},
-    {listNumber: 2, listIcon: <ListBoxIcon />, listName: 'Plugins'},
-    {listNumber: 2, listIcon: <ListCupIcon />, listName: 'Upgrade plans'}
+    {listNumber: 1, listIcon: <ListHomeIcon viewBox="0 0 24 24" />, listName: 'View site'},
+    {listNumber: 1, listIcon: <ListCreateIcon viewBox="0 0 24 24" />, listName: 'Create page'},
+    {listNumber: 1, listIcon: <ListPenIcon viewBox="0 0 24 24" />, listName: 'Blog articles'},
+    {listNumber: 1, listIcon: <ListImgIcon viewBox="0 0 24 24" />, listName: 'Files'},
+    {listNumber: 1, listIcon: <ListUsersIcon viewBox="0 0 24 24" />, listName: 'Users'},
+    {listNumber: 1, listIcon: <ListZipIcon viewBox="0 0 24 24" />, listName: 'Subscriptions'},
+    {listNumber: 1, listIcon: <ListTrashIcon viewBox="0 0 24 24" />, listName: 'Archived pages'},
+    {listNumber: 2, listIcon: <ListBookIcon viewBox="0 0 24 24" />, listName: 'Themes'},
+    {listNumber: 2, listIcon: <ListBoxIcon viewBox="0 0 24 24" />, listName: 'Plugins'},
+    {listNumber: 2, listIcon: <ListCupIcon viewBox="0 0 24 24" />, listName: 'Upgrade plans'}
 ]
 
 export default arrLists;

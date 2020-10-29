@@ -32,7 +32,7 @@ export default function LongMenu() {
         aria-haspopup="true"
         onClick={handleClick}
       >
-        <HorizontalIcon />
+        <HorizontalIcon viewBox="0 0 24 24" />
       </IconButton>
       <Menu
         id="long-menu"

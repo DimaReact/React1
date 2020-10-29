@@ -25,7 +25,7 @@ export default function BasicTable() {
               <TableCell>Status</TableCell>
               <TableCell>Stats</TableCell>
               <TableCell>
-                  <Button className={classes.tableButton} startIcon={<PenBtnIcon />}>Add new</Button>
+                  <Button className={classes.tableButton} startIcon={<PenBtnIcon viewBox="0 0 20 20" />}>Add new</Button>
               </TableCell>
             </TableRow>
           </TableHead>
@@ -33,17 +33,17 @@ export default function BasicTable() {
             {arrTableRow.map((row) => (
               <TableRow className={classes.tableBodyRow}>
                 <TableCell className={classes.tableBodyCell}>
-                    <Typography variant='h3' className={classes.tableTitle}>{row.rowTitle}</Typography>
-                    <Typography variant='subtitle1'>{row.rowDate}</Typography>
+                    <Typography variant='h3' className={classes.tableTitle}>{row.title}</Typography>
+                    <Typography variant='subtitle1'>{row.date}</Typography>
                 </TableCell>
                 <TableCell className={classes.tableBodyCell}>
-                    <Typography component='div' className={classes[row.rowStatus]}>{row.rowStatus}</Typography>
+                    <Typography variant='subtitle2' className={classes[row.status]}>{row.status}</Typography>
                 </TableCell>
                 <TableCell className={classes.tableBodyCell}>
                   <Grid container alignItems='center'>
-                    <Typography variant='caption'>{row.rowViews}</Typography>
+                    <Typography variant='caption'>{row.views}</Typography>
                     <Typography variant='subtitle1' className={classes.tableViews}>views</Typography>
-                    {row.rowViews > 0 ? <UpViews /> : ''}
+                    {row.views > 0 ? <UpViews viewBox="0 0 24 24" /> : ''}
                   </Grid>
                 </TableCell>
                 <TableCell className={classes.tableBodyCell}><Menu /></TableCell>
