@@ -33,13 +33,8 @@ export default function BasicTable() {
             {arrTableRow.map((row) => (
               <TableRow className={classes.tableBodyRow}>
                 <TableCell className={classes.tableBodyCell}>
-<<<<<<< HEAD
-                    <Typography variant='h3' className={classes.tableTitle}>{row.rowTitle}</Typography>
-                    <Typography variant='subtitle1'>{row.rowDate}</Typography>
-=======
                     <Typography variant='h3' gutterBottom>{row.title}</Typography>
                     <Typography variant='subtitle1'>{row.date}</Typography>
->>>>>>> bugfix/fix_first_app
                 </TableCell>
                 <TableCell className={classes.tableBodyCell}>
                     <Typography component='div' className={classes[row.rowStatus]}>{row.rowStatus}</Typography>
@@ -48,11 +43,7 @@ export default function BasicTable() {
                   <Grid container alignItems='center'>
                     <Typography variant='caption'>{row.rowViews}</Typography>
                     <Typography variant='subtitle1' className={classes.tableViews}>views</Typography>
-<<<<<<< HEAD
-                    {row.rowViews > 0 ? <UpViews /> : ''}
-=======
                     {row.views > 0 ? <UpViews /> : ''}
->>>>>>> bugfix/fix_first_app
                   </Grid>
                 </TableCell>
                 <TableCell className={classes.tableBodyCell}><Menu /></TableCell>

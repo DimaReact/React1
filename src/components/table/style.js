@@ -10,40 +10,6 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   published: {
-<<<<<<< HEAD
-    //boxSizing
-    width: "68px",
-    padding: "8px 24px 7px",
-    border: "2px solid #9AE6B4",
-    borderRadius: "50px",
-    fontSize: "16px",
-    lineHeight: "19px",
-    color: "#9AE6B4",
-    textAlign: "center",
-    textTransform: "capitalize",
-  },
-  draft: {
-    width: "68px",
-    padding: "8px 24px 7px",
-    border: "2px solid #FC8181",
-    borderRadius: "50px",
-    fontSize: "16px",
-    lineHeight: "19px",
-    color: "#FC8181",
-    textAlign: "center",
-    textTransform: "capitalize",
-  },
-  scheduled: {
-    width: "68px",
-    padding: "8px 24px 7px",
-    border: "2px solid #FBD38D",
-    borderRadius: "50px",
-    fontSize: "16px",
-    lineHeight: "19px",
-    color: "#FBD38D",
-    textAlign: "center",
-    textTransform: "capitalize",
-=======
     width: "68px",
     borderRadius: "50px",
     padding: theme.spacing(1, 3),
@@ -69,7 +35,6 @@ const useStyles = makeStyles((theme) => ({
     borderStyle: "solid",
     borderColor: theme.palette.warning.main,
     color: theme.palette.warning.main,
->>>>>>> bugfix/fix_first_app
   },
   table: {
     borderCollapse: "separate",
