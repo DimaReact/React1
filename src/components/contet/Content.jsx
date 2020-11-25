@@ -1,8 +1,8 @@
 import React from 'react';
 import useStyles from './style';
 import { Grid } from '@material-ui/core';
-import List from '../list/List'
-import Table from '../table/Table'
+import List from '../list/List';
+import Table from '../table/Table';
 
 export default function MainContent() {
 

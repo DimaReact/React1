@@ -10,6 +10,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   published: {
+<<<<<<< HEAD
     //boxSizing
     width: "68px",
     padding: "8px 24px 7px",
@@ -42,6 +43,33 @@ const useStyles = makeStyles((theme) => ({
     color: "#FBD38D",
     textAlign: "center",
     textTransform: "capitalize",
+=======
+    width: "68px",
+    borderRadius: "50px",
+    padding: theme.spacing(1, 3),
+    borderWidth: "2px",
+    borderStyle: "solid",
+    borderColor: theme.palette.success.main,
+    color: theme.palette.success.main,
+  },
+  draft: {
+    width: "68px",
+    borderRadius: "50px",
+    padding: theme.spacing(1, 3),
+    borderWidth: "2px",
+    borderStyle: "solid",
+    borderColor: theme.palette.error.main,
+    color: theme.palette.error.main,
+  },
+  scheduled: {
+    width: "68px",
+    borderRadius: "50px",
+    padding: theme.spacing(1, 3),
+    borderWidth: "2px",
+    borderStyle: "solid",
+    borderColor: theme.palette.warning.main,
+    color: theme.palette.warning.main,
+>>>>>>> bugfix/fix_first_app
   },
   table: {
     borderCollapse: "separate",
@@ -53,9 +81,6 @@ const useStyles = makeStyles((theme) => ({
   tableBodyCell: {
     border: "none",
     padding: theme.spacing(4),
-  },
-  tableTitle: {
-    marginBottom: "4px",
   },
   tableViews: {
     padding: theme.spacing(0, 1),
