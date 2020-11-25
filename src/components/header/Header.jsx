@@ -17,7 +17,7 @@ export default function MenuAppBar() {
                 <Grid container justify='space-between' alignItems='center'>
                     <Grid container xs={6}>
                         <Grid item>
-                            <LogoIcon viewBox="0 0 42 42" />
+                            <LogoIcon />
                         </Grid>
                         <Grid item>
                             <Typography variant="span">Rival</Typography>
